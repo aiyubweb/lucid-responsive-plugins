@@ -1,0 +1,592 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+/* **********header section css start************ */
+.header-section .top-bar{
+    padding: 10px 0px;
+}
+.header-section .top-bar .nav .nav-item .nav-link{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #008ed6;
+    padding: 0px 10px;
+}
+.header-section .top-bar .nav .nav-item .nav-link:hover{
+    color: #000;
+    transition: 1s;
+}
+.header-section .top-bar .nav .nav-item .nav-link .fas{
+    margin: 0px 5px 0px 0px;
+    font-size: 14px;
+}
+.header-section .navbar-wrapper {
+    margin-top: 0px;
+    position: relative;
+    z-index: 15;
+}
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #000;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, .2);
+}
+.header-section{
+    width: 100%;
+    background: url("../images/Home.png") center top no-repeat;
+    background-size: cover;
+}
+.header-section .navbar-light .navbar-toggler {
+    color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: auto;
+}
+.header-section .navbar-light .navbar-nav .nav-link.active{
+    background: url("../images/line.png") center bottom no-repeat;
+    background-size: auto;
+}
+/* **********header section css end************ */
+
+/* **********banner section css start************ */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner .banner-inner{
+    width: 100%;
+    padding: 40px 0px;
+}
+.banner .banner-inner h5{
+    font-size: 18px;
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px;
+}
+.banner .banner-inner h1{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 58px;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px;
+}
+.banner .banner-inner p{
+    font-size: 16px;
+    color: #7f7f7f;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px 0px 15px;
+}
+.button-groups{
+    width: 100%;
+    padding: 30px 0px 0px;
+}
+.button-groups .btn-primary{
+    padding: 15px 30px;
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 20px 0px 0px;
+}
+.button-groups .btn-primary:hover, .button-groups .btn-primary:focus{
+    background: transparent;
+    color: #008ed6;
+    border: 1px solid #008ed6;
+}
+.button-groups .btn-info{
+    padding: 15px 30px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #7f7f7f;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.button-groups .btn-info:hover, .button-groups .btn-info:focus{
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+}
+/* **********header section css end************ */
+
+/* **********global css start************ */
+.title{
+    width: 100%;
+    padding: 0px 0px 80px;
+}
+.title h6{
+    font-size: 18px;
+    color: #008ed6;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px;
+}
+.title h2{
+    font-size: 42px;
+    color: #000;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px;
+}
+/* **********global css end************ */
+
+/* **********feature css start************ */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.feature .title{
+    text-align: center;
+}
+.inner-feature{
+    width: 100%;
+    padding: 40px 35px;
+    text-align: center;
+}
+.icon{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0px auto 25px;
+    border: 1px solid #eee;
+    border-radius: 100%;
+}
+.inner-feature h5{
+    font-size: 22px;
+    line-height: 32px;
+    color: #000;
+    font-weight: 600;
+    margin: 0px 0px 10px;
+}
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b4b4b4;
+    line-height: 24px;
+}
+/* **********feature css end************ */
+
+/* **********about-long css start************ */
+.about-long{
+    width: 100%;
+    padding: 80px 0px;
+    border-top: 1px solid #eee;
+}
+.about-long-inner{
+    width: 100%;
+    margin: 45px 0px 0px;
+}
+.about-long-inner .title{
+    padding: 0px 0px 15px;
+}
+.about-long-inner p{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #b4b4b4;
+    line-height: 26px;
+}
+.about-long-inner ul{
+    width: 100%;
+    padding: 0px;
+    margin: 30px 0px 0px;
+}
+.about-long-inner ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #000;
+    margin: 10px 0px;
+}
+.about-long-inner ul li img{
+    width: 13px;
+    height: 15px;
+    margin: 0px 10px 0px 0px;
+}
+/* **********about-long css end************ */
+
+/* **********about-short css start************ */
+.about-short{
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f2f2;
+}
+.about-short .title{
+    margin: 65px 0px 0px;
+    padding: 0px 0px 20px;
+}
+.about-short p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b4b4b4;
+    line-height: 26px;
+}
+/* **********about-short css end************ */
+
+/* new items css start */
+.new-items{
+    width: 100%;
+    padding: 80px;
+    background: #ddd;
+}
+.new-items .title{
+    width: 100%;
+    text-align: center;
+}
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+/* new items css end */
+
+.fun-section{
+    width: 100%;
+    padding: 80px 0px;
+}
+.fun-section .title{
+    width: 100%;
+    text-align: center;
+}
+.fun-section .number-box{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    border: 2px solid #08c;
+}
+.fun-section .number-box .fa{
+    font-size: 65px;
+    color: #08c;
+}
+.fun-section .number-box .hours{
+    font-size: 80px;
+    font-weight: 700;
+    color: #08c;
+}
+.fun-section .number-box h6{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.fun-section .number-box .award{
+    font-size: 80px;
+    font-weight: 700;
+    color: #08c;
+}
+.fun-section .number-box h6{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.fun-section .number-box .clients{
+    font-size: 80px;
+    font-weight: 700;
+    color: #08c;
+}
+.fun-section .number-box h6{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* **********testimonial css start************ */
+.testimonial{
+    width: 100%;
+    padding: 80px 0px;
+    background: url("../images/testimonial.png") center top no-repeat;
+    background-size: cover;
+}
+.testimonial .title{
+    text-align: center;
+}
+.testimonial .title h2{
+    color: #fff;
+}
+.testimonial .owl-carousel .item h4{
+    font-size: 22px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 32px;
+    color: #fff;
+    margin: 0px 0px 35px;
+}
+.testimonial .owl-carousel .item .clients-img{
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;
+}
+.testimonial .owl-carousel .item h6{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 15px 0px 10px 15px;
+}
+.testimonial .owl-carousel .item p{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 15px 0px 10px 15px;
+}
+.testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 100px;
+}
+/* **********testimonial css end************ */
+
+/* **********download css start************ */
+.download{
+    width: 100%;
+    padding: 40px 0px;
+    background: #000;
+}
+.download h2{
+    font-size: 32px;
+    color: #fff;
+    font-weight: 300;
+    margin: 15px 0px 10px 0px;
+}
+.download h2 span{
+    font-weight: 600;
+}
+.download .button-groups{
+    padding: 0px;
+    text-align: right;
+}
+.download .button-groups .btn-primary{
+    margin: 0px 0px 0px 15px;
+}
+/* **********download css end************ */
+
+/* **********pricing-plan css start************ */
+.pricing-plan{
+    width: 100%;
+    padding: 80px 0px;
+}
+.pricing-plan .title{
+    text-align: center;
+}
+.pricing-plan .price-box{
+    width: 100%;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    text-align: center;
+}
+.pricing-plan .price-box .price-head{
+    width: 100%;
+    padding: 15px 0px;
+    border-bottom: 1px solid #eee;
+}
+.pricing-plan .price-box .price-head h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0px;
+    letter-spacing: 2px;
+    color: #000;
+}
+.pricing-plan .price-box .price{
+    width: 100%;
+    padding: 30px 0px;
+    border-bottom: 1px solid #eee;
+}
+.pricing-plan .price-box .price h1{
+    font-size: 65px;
+    font-weight: 600;
+    color: #000;
+    margin: 0px;
+    line-height: 60px;
+}
+.pricing-plan .price-box .price h1 sup{
+    font-weight: 30px;
+    font-weight: 400;
+    top: -0.7rem;
+}
+.pricing-plan .price-box .price p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b4b4b4;
+    margin: 0px;
+}
+.pricing-plan .price-box .price-content{
+    width: 100%;
+    padding: 40px 40px 30px;
+}
+.pricing-plan .price-box .price-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b4b4b4;
+    margin: 0px 0px 40px 0px;
+}
+.pricing-plan .price-box .price-content p a{
+    font-weight: 600;
+    color: #008ed6;
+}
+.pricing-plan .price-box .price-content .btn-primary{
+    padding: 12px 25px;
+    background: transparent;
+    color: #008ed6;
+    border: 1px solid #b4b4b4;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.pricing-plan .price-box:hover .price-head h2{
+    color: #008ed6;
+}
+.pricing-plan .price-box:hover .price{
+    background: #008ed6;
+}
+.pricing-plan .price-box:hover .price h1, .pricing-plan .price-box:hover .price p{
+    color: #fff;
+}
+.pricing-plan .price-box:hover .btn-primary{
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+}
+/* **********pricing-plan css end************ */
+
+/* **********contact css end************ */
+.contact{
+    width: 100%;
+    padding: 80px 0px;
+    background: #ededed;
+    position: relative;
+}
+.contact .title{
+    text-align: center;
+}
+.contact .contact-details{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.contact .contact-details img{
+    margin: 0px 0px 20px 0px;
+}
+.contact .contact-details p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #b4b4b4;
+    margin: 40px 0px 0px 0px;
+}
+.contact .main-form{
+    width: 100%;
+    padding: 80px 45px 30px;
+    background: #000;
+    margin-bottom: -150px;
+    z-index: 1;
+}
+.contact .main-form .form-control{
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: transparent;
+    color: #444348;
+    border: 1px solid #444348;
+    border-radius: 3px;
+}
+.contact .main-form .form-control:hover, .contact .main-form .form-control:focus{
+    color: #444348;
+    border: 1px solid #444348;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+.contact .main-form .text-right{
+    text-align: right;
+}
+.contact .main-form .btn-primary{
+    padding: 12px 25px;
+    background: #008ed6;
+    color: #fff;
+    border: 1px solid #008ed6;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+.contact .main-form .btn-primary:hover, .contact .main-form .btn-primary:focus{
+    background: transparent;
+    color: #008ed6;
+    border: 1px solid #008ed6;
+}
+/* **********contact css end************ */
+
+/* **********footer css start************ */
+.footer-section{
+    width: 100%;
+    padding: 40px 0px 30px;
+    background: #15141a;
+}
+.footer-section .socials{
+    width: 100%;
+}
+.footer-section .socials .nav-item .nav-link{
+    padding: 10px;
+    font-size: 20px;
+    color: #444348;
+    margin: 0px 0px 10px 10px;
+}
+.footer-section .socials .nav-item .nav-link:hover{
+    color: #008ed6;
+}
+.footer-section .copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: #444348;
+    text-transform: uppercase;
+}
+/* **********footer css end************ */
